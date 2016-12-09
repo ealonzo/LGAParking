@@ -16,5 +16,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 The following people/resources have contributed in some way to the creation of this script.
 
-* Thanks to [mitgh](https://github.com/mitghi/phantomjs-2.0.0-armv7) for providing a compiled version of PhantomJS for armv7 using 2.0.0.
+* Thanks to [mitghi](https://github.com/mitghi/phantomjs-2.0.0-armv7) for providing a compiled version of PhantomJS for armv7 using 2.0.0.
 * Thanks to [mchwalisz](https://github.com/mchwalisz/thingspeak) for providing a client library for the thingspeak.com API
