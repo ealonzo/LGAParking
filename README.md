@@ -6,7 +6,7 @@ The data is stored at [ThingSpeak](https://thingspeak.com/channels/174364) as we
 
 ## Authors
 
-* **Erwin Alonzo** - *Initial work* - [erwinalonzo.com](http://erwinalonzo.com)
+* **Erwin Alonzo** - *Initial work*
 
 ## License
 
