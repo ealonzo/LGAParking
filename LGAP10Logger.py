@@ -44,7 +44,7 @@ channel = thingspeak.Channel(id=channel_id,write_key=write_key)
 publish(channel)
 
 # Write to a CSV file
-with open(r'/home/pi/LGAP10/p10data.csv', 'a', newline='') as f:
+with open(r'/home/pi/LGAParking/p10data.csv', 'a', newline='') as f:
     writer = csv.writer(f)
     writer.writerow([currentTime,p10percent.text])
 
