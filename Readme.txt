@@ -1,1 +1,0 @@
-This script collects parking utilization data from the Laguardia.com website hourly. Specifically, it collects data for lot P10.
