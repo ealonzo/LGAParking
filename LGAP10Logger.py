@@ -20,8 +20,8 @@ browser.get('http://laguardiaairport.com/getting-to-from/parking/')
 # Need to sleep to allow javascript to load on page
 time.sleep(180)
 
-# Find P10 % utilization on page
-p10percent = browser.find_element_by_css_selector('body > div.l-container > div.l-content > div > div.post__content.wysiwyg > ul.parking-lots > li:nth-child(4) > div > h3 > span.parking-lot__id-and-percentage > span.parking-lot__percentage.u-hidden.js-lga-parking-percentage > span > span > span.parking-capacity__text > span:nth-child(1)')
+# Find P10 % utilization on page (Google Chrome -> Right-click % -> Inspect -> Right-click element in Inspector -> Copy -> Copy selector
+p10percent = browser.find_element_by_css_selector('body > div.l-container > div.l-content > div > div.post__content.wysiwyg > ul.parking-lots > li:nth-child(4) > div > h3 > span > span.parking-lot__percentage.u-hidden.js-lga-parking-percentage > span > span > span.parking-capacity__text > span:nth-child(1)')
 
 # Record time
 currentTime = datetime.now().strftime('%m/%d/%Y %I:%M %p')
